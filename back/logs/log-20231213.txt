@@ -1,0 +1,6 @@
+2023-12-13 10:03:08.945 +03:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN KEY ([BarnyardId]) REFERENCES [Barnyards] ([Id]) ON DELETE CASCADE;
+2023-12-13 10:09:11.162 +03:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN KEY ([BarnyardId]) REFERENCES [Barnyards] ([Id]) ON DELETE CASCADE;
+2023-12-13 10:21:18.138 +03:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN KEY ([BarnyardId]) REFERENCES [Barnyards] ([Id]) ON DELETE CASCADE;
