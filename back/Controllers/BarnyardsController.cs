@@ -35,7 +35,8 @@ namespace Cattleision.Controllers
             return Ok(records);
         }
 
-        [HttpGet("{dashboard}")]
+        [HttpGet]
+        [Route("dashboard")]
         public async Task<ActionResult<IEnumerable<Barnyard>>> GetGeneral()
         {
             var barnyards = await _BarnyardsRepository.GetAllAsync();
@@ -61,7 +62,8 @@ namespace Cattleision.Controllers
             return Ok(barnyardDet);
 
         }
-        [HttpGet("{dashboard}")]
+        [HttpGet]
+        [Route("dashboard2")]
         public async Task<ActionResult<IEnumerable<Barnyard>>> GetBarnyardList()
         {
             var barnyards = await _BarnyardsRepository.GetDetails();

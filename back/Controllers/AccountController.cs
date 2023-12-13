@@ -32,6 +32,7 @@ namespace Cattleision.Controllers
             }
             return Ok(userDet.UserName);
         }
+        [HttpPost]
         [Route("login")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

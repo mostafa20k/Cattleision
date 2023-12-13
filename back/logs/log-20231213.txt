@@ -4,3 +4,96 @@ ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN K
 ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN KEY ([BarnyardId]) REFERENCES [Barnyards] ([Id]) ON DELETE CASCADE;
 2023-12-13 10:21:18.138 +03:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
 ALTER TABLE [Cameras] ADD CONSTRAINT [FK_Cameras_Barnyards_BarnyardId] FOREIGN KEY ([BarnyardId]) REFERENCES [Barnyards] ([Id]) ON DELETE CASCADE;
+2023-12-13 12:03:13.871 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 12:03:13.930 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 12:03:13.935 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 12:03:13.936 +03:30 [INF] Hosting environment: Development
+2023-12-13 12:03:13.936 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 12:03:20.271 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Cattleision.Controllers.AccountController.Login (Cattleision). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 12:05:37.122 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 12:05:37.167 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 12:05:37.170 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 12:05:37.171 +03:30 [INF] Hosting environment: Development
+2023-12-13 12:05:37.173 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 12:05:38.305 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Cattleision.Controllers.AccountController.Login (Cattleision). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 12:07:52.695 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 12:07:52.726 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 12:07:52.733 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 12:07:52.763 +03:30 [INF] Hosting environment: Development
+2023-12-13 12:07:52.764 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 12:07:56.800 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Cattleision.Controllers.AccountController.Login (Cattleision). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 12:10:52.330 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 12:10:52.360 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 12:10:52.366 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 12:10:52.368 +03:30 [INF] Hosting environment: Development
+2023-12-13 12:10:52.369 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 12:10:53.777 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Cattleision.Controllers.AccountController.Login (Cattleision). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 13:26:10.003 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 13:26:10.033 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 13:26:10.040 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 13:26:10.042 +03:30 [INF] Hosting environment: Development
+2023-12-13 13:26:10.043 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 13:26:15.639 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Cattleision.Controllers.AccountController.Login (Cattleision). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 13:31:21.223 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 13:31:21.255 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 13:31:21.260 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 13:31:21.262 +03:30 [INF] Hosting environment: Development
+2023-12-13 13:31:21.263 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 13:31:23.839 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Barnyards/dashboard" for actions - Cattleision.Controllers.BarnyardsController.GetGeneral (Cattleision),Cattleision.Controllers.BarnyardsController.GetBarnyardList (Cattleision). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-13 13:33:00.440 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 13:33:00.501 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 13:33:00.510 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 13:33:00.512 +03:30 [INF] Hosting environment: Development
+2023-12-13 13:33:00.513 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 13:43:50.409 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 13:43:50.441 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 13:43:50.446 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 13:43:50.447 +03:30 [INF] Hosting environment: Development
+2023-12-13 13:43:50.448 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
+2023-12-13 14:37:02.126 +03:30 [INF] Now listening on: https://localhost:7180
+2023-12-13 14:37:02.361 +03:30 [INF] Now listening on: http://localhost:5131
+2023-12-13 14:37:02.842 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 14:37:02.844 +03:30 [INF] Hosting environment: Development
+2023-12-13 14:37:02.845 +03:30 [INF] Content root path: D:\firstASP\Cattleision\Cattleision
